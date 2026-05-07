@@ -13,7 +13,7 @@ The repository is organized based on the main figures in the manuscript.
 | SCENIC / pySCENIC | 0.12.1 | Gene regulatory network (GRN) analysis |
 | clusterProfiler | v4.0.5 | Gene set enrichment analysis (GSEA) |
 | scANVI | 1.0 | Reference mapping / label transfer |
-| Python | ≥ 3.8 | Fig 8 label transfer pipeline |
+| Python | ≥ 3.8 | Python-based analyses |
 | scanpy | 1.12.1| AnnData I/O and preprocessing (Fig 8) |
 
 > **Tested on:** Linux (HPC cluster), x86-64. No non-standard hardware required.
