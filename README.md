@@ -9,21 +9,16 @@ The repository is organized based on the main figures in the manuscript.
 |---|---|---|
 | R | 4.4.0 | All R-based analyses |
 | Seurat | v5 | scRNA-seq clustering, annotation, DEG |
-| Monocle3 | ≥ 1.0 | Pseudotime trajectory inference |
-| SCENIC / pySCENIC | — | Gene regulatory network (GRN) analysis |
-| GENIE3 | — | TF co-expression module identification |
-| RcisTarget | — | TF motif enrichment / regulon pruning |
-| AUCell | — | Per-cell regulon activity scoring (AUC) |
+| Monocle3 | 3.0 | Pseudotime trajectory inference |
+| SCENIC / pySCENIC | 0.12.1 | Gene regulatory network (GRN) analysis |
 | clusterProfiler | v4.0.5 | Gene set enrichment analysis (GSEA) |
-| scANVI | — | Reference mapping / label transfer |
+| scANVI | 1.0 | Reference mapping / label transfer |
 | Python | ≥ 3.8 | Fig 8 label transfer pipeline |
-| scanpy | — | AnnData I/O and preprocessing (Fig 8) |
-| scipy / pandas / seaborn | — | Statistical analysis and plotting (Fig 8) |
+| scanpy | 1.12.1| AnnData I/O and preprocessing (Fig 8) |
 
 > **Tested on:** Linux (HPC cluster), x86-64. No non-standard hardware required.
 
 ### Databases Required
-
 - **MSigDB** — for GSEA pathway enrichment (`clusterProfiler`)
 - **cisTarget databases** — for RcisTarget motif enrichment (pySCENIC)
 - **Human developing neocortex atlas** — reference AnnData for scANVI label transfer (Fig 8); see Wang, L., Wang, C., Moriano, J.A. et al. Molecular and cellular dynamics of the developing human neocortex. Nature 647, 169–178 (2025).
@@ -87,6 +82,8 @@ BMP4_paper_code/
 ## Methods Summary
 
 Detailed methods are described in the manuscript (Methods section).
+## Demo
+For a quick demo, download the processed matrix files from GEO (GSE306803)
 
 ## Reproduction Instructions
 
