@@ -60,24 +60,13 @@ BMP4_paper_code/
 ├── Fig3_RGoRG_trajectory/
 │   └── Fig3_RGoRG_trajectory.R           # RG/oRG pseudotime, TF correlation,
 │                                          # RSS heatmap, differential TF regulons
-├── Fig4_NPC_GABA_trajectory/
-│   └── Fig4_NPC_GABA_trajectory.R        # GABA lineage Monocle3 trajectory,
+├── Fig6_NPC_GABA_trajectory/
+│   └── Fig6_NPC_GABA_trajectory.R        # GABA lineage Monocle3 trajectory,
 │                                          # gene/TF-pseudotime correlation, ARX/DLX plots
-├── Fig5_fetal_brain/
-│   └── Fig5_fetal_reference_mapping.R    # FindTransferAnchors → TransferData,
-│                                          # projected UMAP, oRG Cell-2015 validation
-├── Fig6_NPC_glutamatergic/
-│   └── Fig6_NPC_Glu_trajectory.R         # NPC-to-Glu pseudotime, BMP4/ctrl
-│                                          # differential correlation, NPC marker DotPlots
-├── Fig7_GABA_regulons/
-│   └── Fig7_GABA_regulon_analysis.R      # RSS heatmap, pseudo-bulk pheatmap,
-│                                          # per-cell-type DEG loop, cluster markers
 ├── Fig8_reference_mapping/
-│   └── Fig8_reference_mapping.py         # scANVI label transfer, prediction score dist.,
-│                                          # fraction-overlap heatmaps, pseudobulk Pearson-R,
-│                                          # paired Wilcoxon boxplot
-└── utils/
-    └── pySCENIC_loom_prep.R              # Shared helpers: build_loom_for() + read_pyscenic_output()
+   └── Fig8_reference_mapping.py         # scANVI label transfer, prediction score dist.,
+                                         # fraction-overlap heatmaps, pseudobulk Pearson-R,
+                                          # paired Wilcoxon boxplot
 ```
 ## Methods Summary
 
