@@ -68,7 +68,7 @@ BMP4_paper_code/
 │  └── Fig8_MapQuery.py         # fraction-overlap heatmaps, pseudobulk Pearson-R,
 │  └── Fig8_reference_mapping.py         # paired Wilcoxon boxplot
 ├── utils/
-    └── TF_gene_network_building.py
+    └── TF_gene_network_building.py      #for TF network building in Fig3/6
 ```
 ## Methods Summary
 
