@@ -23,6 +23,8 @@
 #   figures/pearson_r_heatmap.pdf/.png
 #   figures/pearson_r_boxplot.pdf/.png
 #   stats/pearson_r_per_celltype.csv
+# Author: Jiaen Lin
+# Date: 08-May-2026
 # ==============================================================================
 
 import warnings; warnings.simplefilter("ignore")
