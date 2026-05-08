@@ -2,6 +2,8 @@
 # TF–Gene Regulatory Network: Gene–Regulon Binary Matrix
 # Input:  regulons — named list from pySCENIC (TF → target genes)
 # Output: gene_reg_map — binary data.frame (genes × TF regulons)
+# Author: Jiaen Lin
+# Date: 08-May-2026
 # ==============================================================================
 
 library(Matrix)
