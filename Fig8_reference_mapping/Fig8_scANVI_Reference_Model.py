@@ -4,6 +4,8 @@
 # Output: models/scVI_ref/                   (scVI model)
 #         models/scANVI_ref/                 (scANVI model)
 #         models/adata_ref_trained.h5ad      (reference with UMAP embedding)
+# Author: Jiaen Lin
+# Date: 08-May-2026
 # ==============================================================================
 
 import warnings; warnings.simplefilter("ignore")
