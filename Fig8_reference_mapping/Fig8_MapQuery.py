@@ -6,6 +6,8 @@
 # Output: output/query_mapped.h5ad       query with X_scANVI, predictions,
 #                                        prediction_score, UMAP
 #         output/scanvi_soft_probs.csv   per-cell soft probability matrix
+# Author: Jiaen Lin
+# Date: 08-May-2026
 # ==============================================================================
 
 import warnings; warnings.simplefilter("ignore")
