@@ -2,6 +2,7 @@
 # Figure 6: NPC-to-GABA Neuron Trajectory, Pseudotime Correlations, TF Regulons
 # Corresponds to: Figure 6A-F  |  Input: GABAtrac.RDS
 # Author: Jiaen Lin
+# Date: 08-May-2026
 # ==============================================================================
 
 library(Seurat); library(SeuratWrappers); library(monocle3)
