@@ -59,10 +59,10 @@ BMP4_paper_code/
 │                                          # cell composition, whole-organoid SCENIC heatmap
 ├── Fig3_RGoRG_trajectory/
 │   └── Fig3_RGoRG_trajectory.R           # RG/oRG pseudotime, TF correlation,
-│                                          # RSS heatmap, differential TF regulons
+│                                          # heatmap, differential TF regulons
 ├── Fig6_NPC_GABA_trajectory/
 │   └── Fig6_NPC_GABA_trajectory.R        # GABA lineage Monocle3 trajectory,
-│                                          # gene/TF-pseudotime correlation, ARX/DLX plots
+│                                          # gene/TF-pseudotime correlation
 ├── Fig8_reference_mapping/
 │  └── Fig8_scANVI_Reference_Model.py         # scANVI label transfer, prediction score dist.,
 │  └── Fig8_MapQuery.py         # fraction-overlap heatmaps, pseudobulk Pearson-R,
