@@ -63,10 +63,10 @@ BMP4_paper_code/
 ├── Fig6_NPC_GABA_trajectory/
 │   └── Fig6_NPC_GABA_trajectory.R        # GABA lineage Monocle3 trajectory,
 │                                          # gene/TF-pseudotime correlation
-├── Fig8_reference_mapping/
-│  └── Fig8_scANVI_Reference_Model.py         # scANVI label transfer, prediction score dist.,
-│  └── Fig8_MapQuery.py         # fraction-overlap heatmaps, pseudobulk Pearson-R,
-│  └── Fig8_reference_mapping.py         # paired Wilcoxon boxplot
+├── Fig8_and_FigS9_reference_mapping/
+│  └── Fig8_and_FigS9_scANVI_Reference_Model.py         # scANVI label transfer, prediction score dist.,
+│  └── Fig8_and_FigS9_MapQuery.py         # fraction-overlap heatmaps, pseudobulk Pearson-R,
+│  └── Fig8_and_FigS9_reference_mapping.py         # paired Wilcoxon boxplot
 ├── utils/
     └── TF_gene_network_building.py      #for TF network building in Fig3/6
 ```
