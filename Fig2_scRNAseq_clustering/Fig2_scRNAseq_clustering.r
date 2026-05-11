@@ -110,7 +110,7 @@ sample.combined$orig.ident <- factor(sample.combined$orig.ident, levels = c("con
 
 prop_data <- sample.combined@meta.data %>%
   group_by(orig.ident, celltype) %>%
-  summarise(n = n(), .groups = "drop") %>%
+  summarise(n = n()) %>%
   mutate(percent = n / sum(n) * 100)
 
 p_bar <- ggplot(prop_data, aes(x = orig.ident, y = percent, fill = celltype)) +
